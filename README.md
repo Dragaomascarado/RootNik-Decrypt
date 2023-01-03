@@ -7,4 +7,4 @@ This code i writed only for educational purposes. !
 
 Compile: "javac DvmapDecrypt.java"
 
-"Java RootNikDecrypt" than you need pass the path for encrypted file
+Usage: java RootNikDecrypt (than you need pass the path for encrypted file)
