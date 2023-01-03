@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class RootNikDecrypt {
     public static void main(String[] args) throws Exception {
-    // The password is now fixed and does not need to be prompted for
     String password = "#xaJ&kl+";
 
     // Prompt the user for the file path
@@ -16,7 +15,6 @@ public class RootNikDecrypt {
     System.out.print("Enter file path: ");
     String filePath = sc.nextLine();
 
-    // Replace backslashes with forward slashes
     filePath = filePath.replace("\\", "/");
 
     // Read the encrypted file
