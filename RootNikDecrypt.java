@@ -10,11 +10,9 @@ public class RootNikDecrypt {
     public static void main(String[] args) throws Exception {
     String password = "#xaJ&kl+";
 
-    // Prompt the user for the file path
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter file path: ");
     String filePath = sc.nextLine();
-
     filePath = filePath.replace("\\", "/");
 
     // Read the encrypted file
